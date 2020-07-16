@@ -28,17 +28,17 @@ An imperative code would look something like the code highlighted below:
 
 > Here we have a collection and we look for the odd ones:
 
-```
+```javascript
 List < int > collection = new List< int > { 1, 2, 3, 4, 5 };
 ```
 
 _With imperative programming we explicitly declare what we want_
 
-```
+```javascript
 List results = new List();
 foreach(var num in collection){
-if (num % 2 != 0)
-results.Add(num);
+    if (num % 2 != 0)
+    results.Add(num);
 }
 ```
 
@@ -52,8 +52,8 @@ results.Add(num);
 
 With declarative programming, we need to only write code that describes what you would want, but not necessarily how to get it. Take a look at the code below:
 
-```
-var results = collection.Where( num => num % 2 != 0);
+```javascript
+var results = collection.where(num => num % 2 != 0)
 ```
 
 Here, we're saying give us everything that's odd, but did not specify if to loop through the elements the collection. We also didn't specify to check the items, if they are odd, or add it to the result collection eventually.
