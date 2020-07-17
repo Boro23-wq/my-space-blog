@@ -34,33 +34,31 @@ Dynamic languages are great for many things, but in a server, one want things to
 
 The security and vulnerabilities due to GYP build system. And the last but not the least package.json or a centralized (privately controlled) repository for modules that was an unnecessary abstraction that kept record of repositories and modules that wasn’t require at all.
 
-_And the 10 reasons (not exactly 10 if I know how to count, well I will only talk through the top 6 uncertainties)_
+> _And the 10 reasons (not exactly 10 if I know how to count, well we will only talk through the top 6 uncertainties and leave apart the trivial)_
 
-**_1. <u>Not sticking with promises_**</u>
+##**_1. <u>Not sticking with promises_**</u>
 
 He added promises to Node in June 2009 but removed them in February 2010 for minimal configuration. It’s possible unified usage of promise in Node would have sped the delivery of the standardization and async/await process.
 
-**_2. <u>Security_**</u>
+##**_2. <u>Security_**</u>
 
 Node program can access all the system calls, such as writing to the disk, accessing to the network. This is due to build system (GYP) that he used on Node.js.
 
-**3. <u>Build System**</u>
+##**_3. <u>Build System_**</u>
 
 If you are writing a module links to a C library, you’d use GYP to compile that C library and link it into Node. Chrome used GYB once, but now Node is the sole GYP user. Node has several unnecessary complex wrappers around it.
 
-**_4. <u>Package.json_**</u>
+##**_4. <u>Package.json_**</u>
 
 Including NPM in the Node making NPM the standard of the Node distribution. It is the centralized (privately controlled) repository for modules. The `require(“sommodule”)` is not specific ad install unwanted modules. The unnecessary abstraction to rise the concept of a “module” as a directory of files that includes unnecessary information, such as license and repository.
 
-**_5. <u>node_modules_**</u>
+##**_5. <u>node_modules_**</u>
 
 The module resolution algorithm is wildly complex and messes up with browser compatibilities.
 
-**_6. <u>index.js_**</u>
+##**_6. <u>index.js_**</u>
 
 Needlessly complicated the module loading system and especially unnecessary after require supported package.json.
-
-(That's not even 10)
 
 ## Conclusion
 
