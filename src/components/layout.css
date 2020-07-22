@@ -13,6 +13,9 @@ body {
   --inlineCode-text: #e6e6e6;
 }
 
+hr {
+  background: rgba(244, 100, 147, 0.1);
+}
 ins {
   background: rgba(244, 100, 147, 0.7);
 }
