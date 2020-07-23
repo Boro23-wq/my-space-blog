@@ -25,9 +25,10 @@ ins {
 }
 
 p {
-  font-weight: 300;
-  font-family: sans-serif;
-  font-size: large;
+  /* font-weight: 400; */
+  font-family: "Jura", sans-serif;
+  /* font-family: sans-serif; */
+  font-size: 1.25rem;
 }
 
 a {

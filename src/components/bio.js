@@ -59,9 +59,7 @@ const Bio = () => {
       <p className="intro">
         Blog by{" "}
         <span>
-          <strong>
-            <i>{author.name}</i>
-          </strong>
+          <b>{author.name}</b>
         </span>{" "}
         {author.summary}
         {` `}
