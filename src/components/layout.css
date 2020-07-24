@@ -71,7 +71,7 @@ ins {
 }
 
 .sub-ins-2 {
-  /* line-height: 40px; */
+  line-height: 40px;
   background: rgba(244, 100, 147, 0.1);
   border: thin solid rgba(244, 100, 147, 0.4);
   border-radius: 5px;
