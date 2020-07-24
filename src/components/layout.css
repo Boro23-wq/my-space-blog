@@ -13,6 +13,47 @@ body {
   --inlineCode-text: #e6e6e6;
 }
 
+nav ul li {
+  list-style: none;
+}
+
+@media (max-width: 420) {
+  .sub-ins-2 {
+    line-height: 40px;
+  }
+}
+
+h3 a {
+  line-height: 40px;
+  border-left: 5px solid rgba(244, 100, 147, 0.9);
+  border-radius: 2px;
+  padding: 3px 11px;
+  background: rgba(244, 100, 147, 0.08);
+}
+
+small {
+  color: rgb(255, 192, 203, 0.9);
+}
+
+.gatsby-highlight {
+  margin-left: 0.55rem !important;
+  box-shadow: 0 -1px 15px rgba(244, 100, 147, 0.15);
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 200 -100px 100px rgba(255, 255, 255, 1);
+}
+
+li {
+  list-style-type: circle;
+  margin-left: 5%;
+}
+
+/* .gatsby-highlight {
+  margin-left: 100%;
+} */
+
 hr {
   background: rgba(244, 100, 147, 0.1);
 }
@@ -20,15 +61,29 @@ ins {
   background: rgba(244, 100, 147, 0.7);
 }
 
+/* INS TAGS */
 .sub-ins {
+  line-height: 50px;
   background: rgba(244, 100, 147, 0.3);
+  border: thin solid rgba(244, 100, 147, 0.9);
+  border-radius: 5px;
+  padding: 3px 12px;
 }
 
+.sub-ins-2 {
+  /* line-height: 40px; */
+  background: rgba(244, 100, 147, 0.1);
+  border: thin solid rgba(244, 100, 147, 0.4);
+  border-radius: 5px;
+  padding: 3px 8px;
+}
+/* INS TAGS ENDS HERE */
+
 p {
-  /* font-weight: 400; */
-  font-family: "Jura", sans-serif;
-  /* font-family: sans-serif; */
-  font-size: 1.25rem;
+  font-weight: 200;
+  /* font-family: "Jura", sans-serif; */
+  font-family: sans-serif;
+  font-size: 1.1rem;
 }
 
 a {
@@ -56,6 +111,11 @@ blockquote {
   background: rgba(255, 0, 0, 0.05);
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-left: 20px;
+}
+
+blockquote p {
+  font-family: "Play", sans-serif !important;
 }
 /* body.light {
   --bg: #ffffff;

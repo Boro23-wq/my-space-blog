@@ -17,13 +17,13 @@ Before we dive into any crux we would like to take a little note on the things t
 
 Let's get right into it.
 
-##What is a Docker
+## <ins class="sub-ins">What is a Docker</ins>
 
 > Docker is a tool designed to automate process like creating, deploying, and running applications by using containers. Containers are nothing but a big box that contains all the neccessary amenties (libraries, packages) for the application to run. As simple as that.
 
 You sure do have a question in your mind right now, and it is...
 
-##Why do we even need them ?
+## <ins class="sub-ins-2">Why do we even need them? </ins>
 
 Well imagine you have three different Python applications all running different versions of Python. Now, there's no way you can install all the three different versions on the same system. Hell no! You can't do that.
 
@@ -31,7 +31,7 @@ And if that's the case you can't really deploy all the three different applicati
 
 Well you probably can, if you are filthy rich and can get yourself three different systems to work with and install one application on each system and your done, you got the way. But NOOO! That doesn't seem just right yet.
 
-So what's next?
+<ins class="sub-ins-2">So what's next?</ins>
 
 There's a pretty little trick you might have without having to use docker.
 
@@ -57,10 +57,10 @@ This entails the concept of isolation boundaries where each container acts as in
 
 ## Some Docker terminologies:
 
-‣<ins>**Docker Container**</ins>:
+‣<ins class="sub-ins-2">**Docker Container**</ins>:
 A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application from code, runtime, system tools, system libraries and settings.
 
-‣ <ins>**Docker Images**</ins>:
+‣ <ins class="sub-ins-2">**Docker Images**</ins>:
 A Docker image is essentialy a file, comprised of multiple layers, that is used to execute code in a Docker container. An image is built from the instructions for a complete and executable version of an application, which relies on the host OS kernel.
 
 Listed below are the three methods for building or modifying a Docker image:
@@ -71,19 +71,21 @@ Listed below are the three methods for building or modifying a Docker image:
 
 Below are the few major features of a Docker image:
 
-<ins class="sub-ins">_**Portability**_:</ins> The Docker images can easily be pushed or moved into a Docker registry.
+<ins class="sub-ins-2">_**Portability**_:</ins> The Docker images can easily be pushed or moved into a Docker registry.
 
-<ins class="sub-ins">_**Layered nature**_:</ins> Images are added using layers. This enables reusability of images and disk usability is highly reduced as the parent layers are shared.
+<ins class="sub-ins-2">_**Layered nature**_:</ins> Images are added using layers. This enables reusability of images and disk usability is highly reduced as the parent layers are shared.
 
-<ins class="sub-ins">_**Static or Compile-time nature**_:</ins> Though you can create a new Docker image, the contents will remain unchanged.
+<ins class="sub-ins-2">_**Static or Compile-time nature**_:</ins> Though you can create a new Docker image, the contents will remain unchanged.
 
-‣ <ins>**Docker Repository**</ins>:
+## <ins class="sub-ins">What are Docker Repo, Daemon & Cient? </ins>
+
+‣ <ins class="sub-ins-2">**Docker Repository**</ins>:
 A Docker repository is an internet based or network based service which holds Docker images. Docker images can either be pushed or pulled, from or to the Docker repository.
 
-‣ <ins>**Docker Daemon**</ins>:
+‣ <ins class="sub-ins-2">**Docker Daemon**</ins>:
 Docker daemon runs on host system. The users cannot interact directly with Docker daemon but only through Docker clients.
 
-‣ <ins>**Docker Client**</ins>:
+‣ <ins class="sub-ins-2">**Docker Client**</ins>:
 Docker Client is the user interface for Docker. Docker daemon will accept the docker commands from users and establishes a connection with Docker daemon.
 
 ## Advantages and Disadvantages of Docker

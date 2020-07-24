@@ -4,11 +4,11 @@ description: Knowing closure is a thing in 2020...
 date: 2020-02-25
 ---
 
-**_DISCLAIMER_** : This might trip you off. It might get hard to wrap your head around at first, but we are still going to try. Let's do this.
+> **_DISCLAIMER_** : This might trip you off. It might get hard to wrap your head around at first, but we are still going to try. Let's do this.
 
 ![whoo](./assets/whoo.gif)
 
-**BACKGROUND:**
+## <ins class="sub-ins-2">The Background:</ins>
 
 I have always spent my time coding in <u>JavaScript</u> and I haven't really found a reason why I shouldn't. I have been involved doing stuff on the web and the most easy step to not feel poignant while doing things on the web is to learn JavaScript.
 
@@ -30,7 +30,7 @@ You will see the inner function B will have access to the variables in the outer
 
 Let us try that in code:
 
-### Lexical Scoping:
+### <ins class="sub-ins">Lexical Scoping:</ins>
 
 ```javascript
 function A() {
@@ -53,7 +53,7 @@ Notice the 'B' function has no local variables of its own. However, since inner 
 
 And there you have a _console.log_ on your fiddle.
 
-### Closures:
+### <ins class="sub-ins">Closures:</ins>
 
 ```javascript
 function A() {
@@ -76,7 +76,7 @@ The reason is that functions in JavaScript form closures. A closure is the combi
 
 The instance of B maintains a reference to its lexical environment, within which the variable name exists. For this reason, when C is invoked, the variable name remains available for use, and "Sintu Boro" is passed to the console for logging.
 
-_And there you go, you now atleast know the term 'Closure', and the very next time you are asked what Closures really are, you should know it all (or just a bit of it)_
+_**And there you go, you now atleast know the term 'Closure', and the very next time you are asked what Closures really are, you should know it all (or just a bit of it)**_
 
 For more about closures I have attached few links below that will help you cement your knowledge on Closures.
 

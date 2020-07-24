@@ -10,7 +10,7 @@ We are here again, trying to understand another quirk involved with Javascript. 
 
 Today we have another one for you to gasp, and (drumrolls) it is 'Hoisting'. If you already have heard abou what hoisting essentially is, I would still recommend you to read till the end, as we look to spin up really good examples and cement the knowledge of hoisting today.
 
-**_LETS BEGIN! SHALL WE ?_**
+**LETS BEGIN. SHALL WE ?**
 
 ## So, what is Hoisting?
 

@@ -8,7 +8,7 @@ date: 2020-02-19
 
 Just a few days before, I tried to oversimplify the concept of **_Docker_** and attempted to make it as beginner friendly as possible. But today, I thought I would take this a moment ahead and explain the difference between docker containers and virtualized machines and where they differ.
 
-Let's just start yet again by defining what **Containers** and **VMs** really are.
+Let's just start yet again by defining what <ins class="sub-ins-2">Containers</ins> and <ins class="sub-ins-2">VMs</ins> really are.
 
 Containers and VMs are essentially very similar on how they solve a problem, they both isolates an application and its dependencies in a self enclosing unit, so they can run absolutely anywhere.
 
@@ -16,11 +16,11 @@ But everything that does the same thing doesn't have to be same. The main and th
 
 Let's just dive into the sea of wisdom from here. And hope you grab some fish of thoughts with you.
 
-## What are Dockers?
+## <ins class="sub-ins">What are Dockers?</ins>
 
 ![docker](./assets/docker.png)
 
-<ins class="sub-ins">Docker is a software tool</ins> designed to automate <ins class="sub-ins">creation</ins>, <ins class="sub-ins">deployment</ins>, and <ins class="sub-ins">run applications using containers</ins>. Containers allow to bundle up an application with all of its dependencies and library it needs, and deploy it as one package.
+<ins class="sub-ins-2">Docker is a software tool</ins> designed to automate <ins class="sub-ins-2">creation</ins>, <ins class="sub-ins-2">deployment</ins>, and run applications using containers. Containers allow to bundle up an application with all of its dependencies and library it needs, and deploy it as one package.
 
 A forethought, what if we have a few different containers together and they are all running on the same machine. Do we see a causal effect there?
 
@@ -30,15 +30,15 @@ Also, containers are very lightweight because they do not require an extra load 
 
 We will get into the architectural know how in a sometime. You might just want to hold on for now. Let us just understand real quick what VMs are.
 
-## What are VM's?
+## <ins class="sub-ins">What are VM's?</ins>
 
-A VM is essentially an <ins class="sub-ins">emulation of a real computer</ins> that executes programs like a real computer. VMs run on top of a physical machine using a <ins class="sub-ins">“hypervisor”</ins>. A hypervisor, in turn, runs on either a host machine or on “bare-metal”. You don't really need to worry about hypervisor and its types. You can imagine they all mean the same thing here.
+A VM is essentially an <ins class="sub-ins-2">emulation of a real computer</ins> that executes programs like a real computer. VMs run on top of a physical machine using a <ins class="sub-ins-2">“hypervisor”</ins>. A hypervisor, in turn, runs on either a host machine or on “bare-metal”. You don't really need to worry about hypervisor and its types. You can imagine they all mean the same thing here.
 
 But wait! I don't even know what hypervisors mean. Well well well, I have got you covered. I knew you would have a problem here. Let me explain.
 
 ![hypervisor](./assets/hypervisor.jpeg)
 
-A **hypervisor** is essentially a computer software, firmware or hardware that creates and runs virtual machines. A computer on which a hypervisor runs is called a host machine, and in turn we can run multiple virtual machines on top of hypervisor and each of these machines are called guest machiners.
+A <ins class="sub-ins-2">hypervisor</ins> is essentially a computer software, firmware or hardware that creates and runs virtual machines. A computer on which a hypervisor runs is called a host machine, and in turn we can run multiple virtual machines on top of hypervisor and each of these machines are called guest machiners.
 
 > In simple words, a hypervisor allows a host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing.
 
@@ -46,9 +46,9 @@ These resources can be segregated and distributed for different VM's residing on
 
 Although VM's are really powerful and has a fancy name, in terms of performance it is a bit bleaker. It might have a longer booting time, may consume unneccessary resources and a whole lot. This is where containerization bumps in and you wouldn't regret learning them at all.
 
-## Comparing containers and VM's
+## <ins class="sub-ins">Comparing containers and VM's</ins>
 
-<ins>‣ Architectural approach:</ins>
+‣ <ins class="sub-ins-2">Architectural approach:</ins>
 
 ### Docker vs. Virtual Machines
 
@@ -60,19 +60,19 @@ Virtual machines have host OS and the guest OS inside each VM. Guest OS can be a
 
 Docker containers are handy when they need to run multiple applications over a single OS kernel; whereas, virtual machines are handy when multiple application requires multiple OS to run.
 
-<ins>‣ Security:</ins>
+‣ <ins class="sub-ins-2">Security:</ins>
 
 Virtual machines are stand-alone with their kernel and security features. Therefore, applications needing additional administration privileges and security run on virtual machines.
 
 On the contrary, root access and providing administrative access to applications inside a container is not recommended because containers share the same host kernel. As a result, a single infected container can bring down the entire system.
 
-<ins>‣ Performance:</ins>
+‣ <ins class="sub-ins-2">Performance:</ins>
 
 Virtual machines are resource-intensive than Docker containers since they run on a seperate OS than the host OS.
 
 Scaling up resources in a docker container is relatively simpler and an easy step as compared to scaling up on virtual machines or VMs.
 
-## The Future of Docker: Will thet both co-exist?
+## <ins class="sub-ins-2">The Future of Docker</ins>
 
 Docker is undoubtedly gaining a lot of momentum lately, but in no way it will cause a threat to the VM species anytime soon.
 
@@ -86,7 +86,7 @@ Security has been a major concern with Docker containers since containers share 
 
 When security is particularly important, developers are likely to pick VMs anyday.
 
-## Conclusion
+## <ins class="sub-ins-2">Conclusion</ins>
 
 It all boils down to what you want to use it for? Are you running instances of an application or trying to run multiple applications on multiple VMs. Once you have an answer to this problem you would have your bigger problem resolved in no time.
 

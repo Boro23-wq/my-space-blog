@@ -4,13 +4,13 @@ description: What you want VS How to do in order to get what you want...
 date: 2020-01-26
 ---
 
-Telling what you want **VS** Telling how to do in order to get what you want
+Telling what you want <ins class="sub-ins-2">VS</ins> Telling how to do in order to get what you want.
 
-> In Layman terms, declarative programming is 'What' or 'What you want?' and imperative programming would be 'How' or 'How you want'. It is as simple as that.
+> In Layman terms, declarative programming is 'What' or 'What you want?' and imperative programming is 'How' or 'How you want', as simple as that.
 
 **But No! Don't stop here there's something even more to it. Let us dig in.**
 
-In simple words an imperative program consists of explicit commands and instructions for the computer to perform tasks on. Basically imperative programming explicitly describes how you want it to get what you want and focuses on describing how a program operates. Sounds interesting? Uhm, what else?
+In simple words an <ins class="sub-ins-2">imperative program</ins> consists of explicit commands and instructions for the computer to perform tasks on. Basically imperative programming explicitly describes how you want it to get what you want and focuses on describing how a program operates. Sounds interesting? Uhm, what else?
 
 Lets take a quick example to understand the ridge here.
 
@@ -20,9 +20,9 @@ On the contrary:
 
 > I f you want the landscape to look a certain way, if you want them to use pastels and should be a night sky, that is imperative because you explicitly talk through how you want the picture to shape.
 
-**Let us take a look at declarative and imperative code side-by-side to have a good grasp of what both of these actually mean.**
+Let us take a look at declarative and imperative code side-by-side to have a good grasp of what both of these actually mean.
 
-## Imperative
+## <ins class="sub-ins">Imperative</ins>
 
 An imperative code would look something like the code highlighted below:
 
@@ -44,11 +44,11 @@ foreach(var num in collection){
 
 **Here we are saying:**
 
-- Create a collection
-- Loop througheach of the element in the collection
-- Perform operations to check if the number is odd and add to results
+- <ins class="sub-ins-2">Create a collection.</ins>
+- <ins class="sub-ins-2">Loop througheach of the element in the collection.</ins>
+- <ins class="sub-ins-2">Perform operations to check if the number is odd and add to results.</ins>
 
-## Declarative
+## <ins class="sub-ins">Declarative</ins>
 
 With declarative programming, we need to only write code that describes what you would want, but not necessarily how to get it. Take a look at the code below:
 
@@ -58,7 +58,7 @@ var results = collection.where(num => num % 2 != 0)
 
 Here, we're saying give us everything that's odd, but did not specify if to loop through the elements the collection. We also didn't specify to check the items, if they are odd, or add it to the result collection eventually.
 
-### Let us have a look what declarative programming brings into the table:
+### <ins class="sub-ins-2">Advantages of declarative programming:</ins>
 
 1. It minimizes mutability.
 2. Immutable objects are generally much easier to work with. Such objects can only be in one state, which cannot be modified across threads.
