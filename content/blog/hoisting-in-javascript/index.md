@@ -10,15 +10,13 @@ We are here again, trying to understand another quirk involved with Javascript. 
 
 Today we have another one for you to gasp, and (drumrolls) it is 'Hoisting'. If you already have heard abou what hoisting essentially is, I would still recommend you to read till the end, as we look to spin up really good examples and cement the knowledge of hoisting today.
 
-**LETS BEGIN. SHALL WE ?**
-
-## So, what is Hoisting?
+## <ins class="sub-ins">What is Hoisting?</ins>
 
 Well, if you can remember Hoisting as Hosting (just a wordplay) or to present or to put it on the top for everyone to be able to use it. In Javascript it really means to present. Want to know how?
 
 Named functions (a function with a name) or any variable declarations are essentially hoisted on top of the document even before the code returns anything.
 
-Let us take two examples:
+<ins class="sub-ins-2">Let us take an example:</ins>
 
 ```javascript
 var a = "First"
@@ -52,7 +50,7 @@ function hoisting() {
 }
 ```
 
-What do you think gets logged in here ?
+What do you think gets <ins class="sub-ins-2">logged</ins> in here ?
 And an another one...
 
 ```javascript
@@ -67,7 +65,7 @@ And here ?
 
 As you wouldn't imagine the first function would actually retun the value from the function. And guess what the second function returns ?
 
-It valiantly throws an error (Reference error specfically) because it has no idea what it needs, and because it is an anonymous function (a function without a name), it wouldn't be hoisted and hence the function can't be accessed before it has been declared.
+It valiantly throws an <ins class="sub-ins-2">error</ins> (Reference error specfically) because it has no idea what it needs, and because it is an <ins class="sub-ins-2">anonymous</ins> function (a function without a name), it wouldn't be hoisted and hence the function can't be accessed before it has been declared.
 
 So how can we make the second code make sense? Well, just call it after it has been declared like the code below.
 
@@ -79,13 +77,13 @@ var hoisting = function {
 console.log(hoisting())
 ```
 
-And now we are talking. But why do you think I have introduced you to the concept of named and anonymous functions here.
+And now we are talking. But why do you think I have introduced you to the concept of <ins class="sub-ins-2">named</ins> and <ins class="sub-ins-2">anonymous</ins> functions here.
 
 Let me take a quick example here. Let us imagine we have 1000 lines of Javascript code with named functions. In that case, when the Javascript code runs in the browser, it would look to hoist every function and variable at first before even executing the meat of the code.
 
-What does that mean? That essentially means one has to wait a few milli-seconds before the actual code stacks up and runs but the wait wouldn't make sense to you. In other words, hoisting in the browser takes up some space and to avoid this quirky behaviour we must always avoid writing code that are hoisted.
+What does that mean? That essentially means one has to wait a few milli-seconds before the actual code stacks up and runs but the wait wouldn't make sense to you. In other words, hoisting in the browser takes up some space and to avoid this <ins class="sub-ins-2">quirky</ins> behaviour we must always avoid writing code that are hoisted.
 
-Simple answer to the problem ? Write anonymous function codes as much as possible or declare and initialize variables before you call it.
+Simple answer to the problem ? Write <ins class="sub-ins-2">anonymous</ins> function codes as much as possible or declare and initialize variables before you call it.
 
 **_With this, we have a very good understanding of what a Hoisting possibly can be and how can we avoid them._**
 

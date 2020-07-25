@@ -23,7 +23,7 @@ Let's get right into it.
 
 You sure do have a question in your mind right now, and it is...
 
-## <ins class="sub-ins-2">Why do we even need them? </ins>
+## Why do we even need them?
 
 Well imagine you have three different Python applications all running different versions of Python. Now, there's no way you can install all the three different versions on the same system. Hell no! You can't do that.
 
@@ -77,7 +77,7 @@ Below are the few major features of a Docker image:
 
 <ins class="sub-ins-2">_**Static or Compile-time nature**_:</ins> Though you can create a new Docker image, the contents will remain unchanged.
 
-## <ins class="sub-ins">What are Docker Repo, Daemon & Cient? </ins>
+## What are Docker Repositories, Daemon & Cient?
 
 ‣ <ins class="sub-ins-2">**Docker Repository**</ins>:
 A Docker repository is an internet based or network based service which holds Docker images. Docker images can either be pushed or pulled, from or to the Docker repository.
@@ -90,7 +90,7 @@ Docker Client is the user interface for Docker. Docker daemon will accept the do
 
 ## Advantages and Disadvantages of Docker
 
-### Advantages of using Docker
+### <ins class="sub-ins-2">Advantages</ins>
 
 _Some of the key benefits of using Docker are listed below:_
 
@@ -104,7 +104,7 @@ _Some of the key benefits of using Docker are listed below:_
 
 ‣ Another advantage of using docker is security. Since applications running on containers are completely isolated from each other, granting you complete control over traffic flow and management. No Docker container can peek into processes running inside another container.
 
-## Disadvantages of using Docker
+### <ins class="sub-ins-2">Disadvantages</ins>
 
 Applications having different operating system requirements cannot be hosted together on the same Host machine.
 

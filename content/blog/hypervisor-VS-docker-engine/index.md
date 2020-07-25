@@ -46,7 +46,7 @@ These resources can be segregated and distributed for different VM's residing on
 
 Although VM's are really powerful and has a fancy name, in terms of performance it is a bit bleaker. It might have a longer booting time, may consume unneccessary resources and a whole lot. This is where containerization bumps in and you wouldn't regret learning them at all.
 
-## <ins class="sub-ins">Comparing containers and VM's</ins>
+## <ins class="sub-ins">Containers VS VM's</ins>
 
 ‣ <ins class="sub-ins-2">Architectural approach:</ins>
 
@@ -72,7 +72,7 @@ Virtual machines are resource-intensive than Docker containers since they run on
 
 Scaling up resources in a docker container is relatively simpler and an easy step as compared to scaling up on virtual machines or VMs.
 
-## <ins class="sub-ins-2">The Future of Docker</ins>
+## <ins class="sub-ins">The Future of Docker</ins>
 
 Docker is undoubtedly gaining a lot of momentum lately, but in no way it will cause a threat to the VM species anytime soon.
 
@@ -86,7 +86,7 @@ Security has been a major concern with Docker containers since containers share 
 
 When security is particularly important, developers are likely to pick VMs anyday.
 
-## <ins class="sub-ins-2">Conclusion</ins>
+## <ins class="sub-ins">Conclusion</ins>
 
 It all boils down to what you want to use it for? Are you running instances of an application or trying to run multiple applications on multiple VMs. Once you have an answer to this problem you would have your bigger problem resolved in no time.
 

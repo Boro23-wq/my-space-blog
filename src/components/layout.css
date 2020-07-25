@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+
 body {
   background-color: var(--bg);
   color: var(--header);
@@ -71,7 +73,7 @@ ins {
 }
 
 .sub-ins-2 {
-  line-height: 40px;
+  /* line-height: 2rem; */
   background: rgba(244, 100, 147, 0.1);
   border: thin solid rgba(244, 100, 147, 0.4);
   border-radius: 5px;

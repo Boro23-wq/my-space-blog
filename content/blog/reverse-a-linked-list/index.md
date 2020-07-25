@@ -20,7 +20,7 @@ The following illustration demonstrates how reversing a LinkedList is implemente
 
 ![iterative](./assets/iterative.png# image)
 
-### <ins class="sub-ins-2">Steps to reverse a linked list:</ins>
+### Steps to reverse a linked list:
 
 - Check for edge cases (one node or no node).<br>
 - Continue till we have a head (an element to reverse).<br>
@@ -30,7 +30,7 @@ The following illustration demonstrates how reversing a LinkedList is implemente
 - Shift prev to current/head.<br>
 - Shift the current/head element to next.<br>
 
-### <ins class="sub-ins-2">Implementation of Iterative Approach:</ins>
+### Implementation of Iterative Approach:
 
 We iterate through the list once, changing the <ins class="sub-ins-2">next</ins> pointer of each node to the previous node. The order of operations is important: we copy <ins class="sub-ins-2">head.next</ins> into <ins class="sub-ins-2">temp</ins> before setting <ins class="sub-ins-2">head.next</ins> to <ins class="sub-ins-2">previous</ins>. Because we don't want to lost track of <ins class="sub-ins-2">next</ins> and <ins class="sub-ins-2">prev</ins> nodes.
 
@@ -72,7 +72,7 @@ Recursive approach is pretty straight-forward. A recursive approach is concise b
 
 ![recursive](./assets/recursive.png)
 
-### <ins class="sub-ins-2">Implementation of Recursive Approach:</ins>
+### Implementation of Recursive Approach:
 
 ```javascript
 /**

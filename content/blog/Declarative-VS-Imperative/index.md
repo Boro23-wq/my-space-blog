@@ -44,9 +44,9 @@ foreach(var num in collection){
 
 **Here we are saying:**
 
-- <ins class="sub-ins-2">Create a collection.</ins>
-- <ins class="sub-ins-2">Loop througheach of the element in the collection.</ins>
-- <ins class="sub-ins-2">Perform operations to check if the number is odd and add to results.</ins>
+- Create a collection.
+- Loop througheach of the element in the collection.
+- Perform operations to check if the number is odd and add to results.
 
 ## <ins class="sub-ins">Declarative</ins>
 
@@ -58,12 +58,12 @@ var results = collection.where(num => num % 2 != 0)
 
 Here, we're saying give us everything that's odd, but did not specify if to loop through the elements the collection. We also didn't specify to check the items, if they are odd, or add it to the result collection eventually.
 
-### <ins class="sub-ins-2">Advantages of declarative programming:</ins>
+### Advantages of declarative programming:
 
-1. It minimizes mutability.
-2. Immutable objects are generally much easier to work with. Such objects can only be in one state, which cannot be modified across threads.
-3. Reduces state side-effects and discourages usage of variables in favor of constructs, such as pipelines or higher-order functions.
-4. It leads to clean and understable code and are more maintanable and can be scaled very easily as well.
+1. It minimizes <ins class="sub-ins-2">mutability</ins>.
+2. Immutable objects are generally much easier to work with. Such objects can only be in one <ins class="sub-ins-2">state</ins>, which cannot be modified across threads.
+3. Reduces <ins class="sub-ins-2">state side-effects</ins> and discourages usage of variables in favor of constructs, such as pipelines or higher-order functions.
+4. It leads to <ins class="sub-ins-2">clean</ins> and <ins class="sub-ins-2">understable code</ins> and are more <ins class="sub-ins-2">maintanable</ins> and can be <ins class="sub-ins-2">scaled</ins> very easily as well.
 
 That is it lads, that is what a declarative and imperative code really means under the covers.
 

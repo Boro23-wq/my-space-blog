@@ -8,7 +8,7 @@ date: 2020-02-25
 
 ![whoo](./assets/whoo.gif)
 
-## <ins class="sub-ins-2">The Background:</ins>
+## <ins class="sub-ins">Background:</ins>
 
 I have always spent my time coding in <u>JavaScript</u> and I haven't really found a reason why I shouldn't. I have been involved doing stuff on the web and the most easy step to not feel poignant while doing things on the web is to learn JavaScript.
 
@@ -20,7 +20,7 @@ You now might ponder why I ever felt that, when you think JavaScript is pure pow
 
 With that in mind let me introduce you to a concept called closure that you felt never existed and tell me after if you still think JavaScript is cool and fun!
 
-**LETS BEGIN!**
+<ins class="sub-ins-2">**LETS BEGIN!**</ins>
 
 In simple words, a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created.
 
