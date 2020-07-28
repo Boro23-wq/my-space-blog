@@ -59,7 +59,15 @@ const Bio = () => {
       <p className="intro">
         Blog by{" "}
         <span>
-          <b>{author.name}</b>
+          <b>
+            <a
+              href="https://sintu-boro.netlify.app/"
+              target="_blank"
+              className="author"
+            >
+              {author.name}
+            </a>
+          </b>
         </span>{" "}
         {author.summary}
         {` `}

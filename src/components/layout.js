@@ -61,9 +61,10 @@ const Layout = ({ location, title, children }) => {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Follow me on
+          © {new Date().getFullYear()}, Feel free to get in touch through mail
+          at
           {` `}
-          <a href="https://www.instagram.com/middlechild.x">Instagram</a>
+          <a href="https://www.gmail.com/">sboro2899@gmail.com</a>
         </footer>
       </div>
     </div>

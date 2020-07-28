@@ -3,7 +3,7 @@ module.exports = {
     title: `My🚀Space`,
     author: {
       name: `Sintu Boro,`,
-      summary: `an ardent learner and a pragmastic.`,
+      summary: `an ardent learner and a pragmatist.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
