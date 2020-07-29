@@ -42,9 +42,9 @@ Well, this is not really a hard problem if you can imagine what goes in here. Bu
 
 ### <ins class="sub-ins-2">**APPROACH-1 :**</ins>
 
-🐌 _Inefficient Solution - O(n) Time and O(n) Space_
+#### 🐌 Inefficient - O(n) Time and O(n) Space
 
-**_This approach is inefficient because it uses a Set that has a linear space complexity (because in the worst case we may have to store all the items in the Set)._**
+This approach is inefficient because it uses a Set that has a linear space complexity (because in the worst case we may have to store all the items in the Set).
 
 ```javascript
 var firstMissingPositive = function (nums) {
@@ -62,11 +62,11 @@ var firstMissingPositive = function (nums) {
 
 ### <ins class="sub-ins-2">**APPROACH-2 :**</ins>
 
-🚀 **_Efficient Solution - O(n) Time and O(1) Space):_**
+#### 🚀 Efficient Solution - O(n) Time and O(1) Space):
 
-_This approach is efficient because it doesn't uses an extra space in the form of a Set that we used in the earlier approach._
+This approach is efficient because it doesn't uses an extra space in the form of a Set that we used in the earlier approach.
 
-**_The idea behind this approach is that we compare if the position of the items are correct. Since in an array of non-negative integers 1 will always be at index 0 and so on... The very first index that doesn't match its item is the required number._**
+The idea behind this approach is that we compare if the position of the items are correct. Since in an array of non-negative integers 1 will always be at index 0 and so on... The very first index that doesn't match its item is the required number.
 
 > Heavy comments for you to understand what goes through each step.
 
@@ -123,9 +123,9 @@ var firstMissingPositive = function (nums) {
 
 ### <ins class="sub-ins-2">**APPROACH-3 :**</ins>
 
-🚀 _Efficient Solution - O(n) Time and O(1) Space:_
+#### 🚀 Efficient Solution - O(n) Time and O(1) Space:
 
-**_The idea behind this approach:_**<br>
+The idea behind this approach:
 
 1. Convert the non-positive numbers or numbers greater than 'n' to 1.<br>
 

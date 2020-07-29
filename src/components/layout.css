@@ -43,6 +43,16 @@ h3 a {
   /* background: rgba(244, 100, 147, 0.08); */
 }
 
+h3 {
+  /* line-height: px; */
+  /* margin-bottom: 0; */
+}
+
+h4 {
+  margin-top: 25px;
+  text-transform: none;
+}
+
 small {
   color: rgb(255, 192, 203, 0.9);
 }
