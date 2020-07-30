@@ -12,7 +12,7 @@ date: 2020-03-13
 
 Well this is a real complex (not really) situation to wrap your head around at first, if you are fairly new to the JavaScript world but, we will try to explain how <ins class="sub-ins-2">prototype chains</ins> work and display how the prototype property can be used to add methods to existing <ins class="sub-ins-2">constructors</ins>.
 
-## A prototype-based language?
+## Javascript - A prototype-based language?
 
 JavaScript is often described as a prototype-based language — to provide inheritance. Objects can have a prototype object, which enables the object to inherit props and methods from the prototype object.
 

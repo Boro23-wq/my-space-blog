@@ -35,6 +35,10 @@ strong {
   }
 }
 
+h2 {
+  line-height: 1.26;
+}
+
 h3 a {
   /* line-height: 40px; */
   /* border-left: 5px solid rgba(244, 100, 147, 0.9); */
@@ -49,8 +53,16 @@ h3 {
 }
 
 h4 {
-  margin-top: 25px;
-  text-transform: none;
+  font-size: small;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  line-height: 1.35;
+}
+
+ul li {
+  font-weight: 200;
+  line-height: 1.5;
 }
 
 small {
@@ -101,7 +113,7 @@ ins {
   background: rgba(244, 100, 147, 0.1);
   border: thin solid rgba(244, 100, 147, 0.4);
   border-radius: 5px;
-  padding: 3px 8px;
+  padding: 1.15px 6px;
 }
 /* INS TAGS ENDS HERE */
 

@@ -47,7 +47,7 @@ The most intuitive solution that one can imagine is possibly sorting the array a
 
 #### (Inefficient) - Extra Space
 
-<ins class="sub-ins">_Time-O(n) | Space-O(n)_</ins>
+#### <ins class="sub-ins">Time-O(n)</ins> | <ins class="sub-ins">Space-O(n)</ins>
 
 The idea behind this approach is to use a Set. We run through the array and put the items of the array into the <ins class="sub-ins-2">Set</ins>, and since a set only contains <ins class="sub-ins-2">unique</ins> values, therefore the next time we see a number already in the set, we know that we have found the number we have been looking for.
 
@@ -75,7 +75,7 @@ Let us look at another approach that seems a bit better.
 
 #### (Inefficient) - Array Manipulation
 
-<ins class="sub-ins">_Time-O(n) | Space-O(1)_</ins>
+#### <ins class="sub-ins">Time-O(n)</ins> | <ins class="sub-ins">Space-O(1)</ins>
 
 The idea behind this approach is to <ins class="sub-ins-2">iterate</ins> through the array and <ins class="sub-ins-2">convert</ins> all the items in the array to its <ins class="sub-ins-2">negative</ins>. And while we iterate, if we run through a number that is already a negative that means we have reached a point of endless <ins class="sub-ins-2">loop</ins>, and essentially found the number we have been looking for.
 
@@ -101,9 +101,9 @@ It is finally time that we look at the most efficient solution. Let us straight 
 
 ### APPROACH-3
 
-#### (Optimised) Floyd's Cycle Detection Algorithm.
+#### 🚀 (Optimised) Floyd's Cycle Detection Algorithm.
 
-<ins class="sub-ins">_Time-O(n) | Space-O(1)_</ins>
+#### <ins class="sub-ins">Time-O(n)</ins> | <ins class="sub-ins">Space-O(1)</ins>
 
 The idea behind this approach is to use the **"Floyd's Cycle Detection Algorithm"** aka **"Tortoise and Hare approach"**. If you don't already know what a Floyd Cycle Detection Algorithm essentially means, I would recommend you to visit this [link](https://cs.stackexchange.com/questions/10360/floyds-cycle-detection-algorithm-determining-the-starting-point-of-cycle).
 

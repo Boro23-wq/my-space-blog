@@ -97,4 +97,4 @@ var reverseList = function (head, previous = null) {
 
 Once reverseList() has successfully traversed all the nodes, the last node will be the new head and will reference the other nodes backwards.
 
-Thats all folks. We have successfully tackled the very classic linked list interview problem, and we are very good to go with another one involving linked list. Happy Coding😃.
+Thats all folks. We have successfully tackled the very classic linked list interview problem, and we are very good to go with another one involving linked list. Happy Coding 😃.

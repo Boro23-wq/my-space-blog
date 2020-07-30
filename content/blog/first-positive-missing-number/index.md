@@ -42,7 +42,9 @@ Well, this is not really a hard problem if you can imagine what goes in here. Bu
 
 ### <ins class="sub-ins-2">**APPROACH-1 :**</ins>
 
-#### 🐌 Inefficient - O(n) Time and O(n) Space
+#### 🐌 (Inefficient)
+
+#### <ins class="sub-ins">Time - O(n)</ins> | <ins class="sub-ins">Space - O(n)</ins>
 
 This approach is inefficient because it uses a Set that has a linear space complexity (because in the worst case we may have to store all the items in the Set).
 
@@ -62,7 +64,9 @@ var firstMissingPositive = function (nums) {
 
 ### <ins class="sub-ins-2">**APPROACH-2 :**</ins>
 
-#### 🚀 Efficient Solution - O(n) Time and O(1) Space):
+#### 🚀 (Efficient)
+
+#### <ins class="sub-ins">Time - O(n)</ins> | <ins class="sub-ins">Space - O(1)</ins>
 
 This approach is efficient because it doesn't uses an extra space in the form of a Set that we used in the earlier approach.
 
@@ -123,7 +127,9 @@ var firstMissingPositive = function (nums) {
 
 ### <ins class="sub-ins-2">**APPROACH-3 :**</ins>
 
-#### 🚀 Efficient Solution - O(n) Time and O(1) Space:
+#### 🚀 (Efficient)
+
+#### <ins class="sub-ins">Time - O(n)</ins> | <ins class="sub-ins">Space - O(1)</ins>
 
 The idea behind this approach:
 
