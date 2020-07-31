@@ -68,8 +68,9 @@ h4 {
 }
 
 ul li {
-  font-weight: 200;
-  line-height: 1.5;
+  font-weight: 20;
+  padding-bottom: 1.2rem;
+  line-height: 1.7;
 }
 
 small {
@@ -99,8 +100,19 @@ li {
   margin-left: 100%;
 } */
 
+hr.style-two {
+}
+
 hr {
-  background: rgba(244, 100, 147, 0.1);
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(244, 100, 147, 0.15),
+    rgba(244, 100, 147, 0.75),
+    rgba(244, 100, 147, 0.15)
+  );
+  /* background: rgba(244, 100, 147, 0.4); */
 }
 ins {
   background: rgba(244, 100, 147, 0.7);
