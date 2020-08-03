@@ -120,7 +120,7 @@ ins {
 
 /* INS TAGS */
 .sub-ins {
-  line-height: 50px;
+  line-height: 10px;
   background: rgba(244, 100, 147, 0.3);
   border: thin solid rgba(244, 100, 147, 0.9);
   border-radius: 5px;
