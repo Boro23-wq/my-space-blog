@@ -38,7 +38,8 @@ Below is a Trie/Prefix Tree that stores the word _ARTIST_, _BUCK_, _BUNNY_ and _
 
 That is where the most use case scenario of <ins class="sub-ins-2">Trie</ins> comes in. Trie can be used as a data structure to suggest us words or letters based on the <ins class="sub-ins-2">prefixes</ins> , the feature that we call <ins class="sub-ins-2">'autocomplete'</ins> . Yes! You certainly guessed it right, <ins class="sub-ins-2">search</ins> <ins class="sub-ins-2">engines</ins> like Google uses Trie for the autocomplete suggestions.
 
-![autocomplete](./assets/autocomplete.jpg)
+<!-- ![autocomplete](./assets/autocomplete.jpg) -->
+<img src="./assets/1.png" alt="1" width="30%" height="50" />
 
 ### Disadvantages of Trie:
 
