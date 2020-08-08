@@ -1,6 +1,6 @@
 ---
-title: Minimum Spanning Tree
-description: Using Kruskals Algorithm to find minimum spanning tree.
+title: Minimum Spanning Tree (Krushkals Algorithm)
+description: Using Krushkals Algorithm to find minimum spanning tree.
 date: 2020-08-06
 ---
 
