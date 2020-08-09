@@ -26,17 +26,17 @@ The Alan platform offers the following components, as an environment of interact
 
 ![alan_scheme](./assets/alan_scheme.png)
 
-### 🤖 <ins class="sub-ins">Alan Studio:</ins>
+### 🤖 Alan Studio:
 
 - The Alan Studio is an environment where developers can write voice <ins class="sub-ins-2">scripts</ins> for their applications.
 - The Alan Studio provides number of tools for convenient and easy scripting, <ins class="sub-ins-2">debugging</ins> and <ins class="sub-ins-2">testing</ins> .
 
-### 🤖 <ins class="sub-ins">Alan SDKs:</ins>
+### 🤖 Alan SDKs:
 
 - Alan makes it easy for your application to execute <ins class="sub-ins-2">voice</ins> <ins class="sub-ins-2">commands</ins> from scripts. You just need to add the Alan button onto your application using the <ins class="sub-ins-2">Alan SDK.</ins>
 - Upon integration, a small button pops up on the application UI. That is the Alan button which activates the voice interface and indicates the processing state.
 
-### 🤖 <ins class="sub-ins">Alan Cloud:</ins>
+### 🤖 Alan Cloud:
 
 - With Alan, you do not need to plan for and deploy servers and other IT infrastructure to run voice scripts. The solution architecture is <ins class="sub-ins-2">serverless</ins>: voice scripts are run on virtual machines in the cloud managed for you.
 - Alan is highly <ins class="sub-ins-2">scalable</ins>. It can scale up to millions of users as your requirements grow.
