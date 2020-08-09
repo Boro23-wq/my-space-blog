@@ -1,8 +1,10 @@
 ---
-title: Reverse a Linked List
+title: Reverse Linked List
 description: A classic linked list interview problem.
 date: 2020-03-01
 ---
+
+#### <ins class="sub-easy">LEETCODE EASY</ins>
 
 Today we are going to tackle a very classic Link List interview problem. Once, a techlead said knowing how to reverse a linked list can make you omnipotent. Let us try being one today and put it straight in the back pocket, so next time someone asks you if you know how to do it, you already got it.
 

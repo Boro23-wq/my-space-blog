@@ -4,6 +4,8 @@ description: Cubic time to Linear time using Kadanes Algorithm.
 date: 2020-08-03
 ---
 
+#### <ins class="sub-medium">LEETCODE MEDIUM</ins>
+
 Today we are looking at a very easy and convenient coding question to introduce you to the essence of <ins class="sub-ins-2">Dynamic</ins> <ins class="sub-ins-2">Programming</ins> and how can one implement dynamic programming to <ins class="sub-ins-2">optimise complexities.
 
 We are going to approach the problem step-by-step and we will identify solutions as bad as a <ins class="sub-ins-2">cubic</ins> time or <ins class="sub-ins-2">quadratic</ins> time solution and optimise them to give us a solution in <ins class="sub-ins-2">linear</ins> time.

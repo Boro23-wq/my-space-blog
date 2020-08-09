@@ -4,6 +4,8 @@ description: Implementation of LRU cache in Javascript.
 date: 2020-03-26
 ---
 
+#### <ins class="sub-medium">LEETCODE MEDIUM</ins>
+
 As promised, we are back with the <ins class="sub-ins-2">implementation</ins> of the LRU cache that we discussed about in our last blog. We talked through what a cache is, why we might need them, their performance with respect to time and space complexities and how the LRU <ins class="sub-ins-2">eviction</ins> policy in caches work.
 
 Today we are going to implement the LRU eviction scheme through code.

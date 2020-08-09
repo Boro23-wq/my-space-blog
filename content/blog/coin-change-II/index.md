@@ -4,6 +4,8 @@ description: An essence of Dynamic Programming.
 date: 2020-08-05
 ---
 
+#### <ins class="sub-medium">LEETCODE MEDIUM</ins>
+
 The Leetcode <ins class="sub-ins-2">Coin</ins> <ins class="sub-ins-2">change</ins> problem has two different variants that we are going to discuss today.
 
 - The first problem entails <ins class="sub-ins-2">minimum</ins> number of given coins as denominations required to make up a given <ins class="sub-ins-2">amount.</ins>

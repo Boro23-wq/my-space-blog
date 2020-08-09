@@ -1,8 +1,10 @@
 ---
-title: Duplicate in an array
+title: Find the Duplicate Number
 description: Tortoise and Hare Cycle Detection Algorithm.
 date: 2020-03-16
 ---
+
+#### <ins class="sub-medium">LEETCODE MEDIUM</ins>
 
 Today we are going to look at one of my favorite coding question from [Leetcode](https://leetcode.com/), and that is finding the <ins class="sub-ins-2">duplicate</ins> in an array. You are basically given an array of (n + 1) integers where each integer is between 1 to n (inclusive).
 

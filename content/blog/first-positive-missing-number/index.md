@@ -1,8 +1,10 @@
 ---
-title: First Positive Missing Number
+title: First Missing Positive
 description: Breeze through a leetcode hard problem.
 date: 2020-03-06
 ---
+
+#### <ins class="sub-hard">LEETCODE HARD</ins>
 
 Hey there! Ever tried to solve a leetcode hard problem before? If not, we have one for you to challenge your mind. Grab your tea and lets spill the beans, shall we ?
 

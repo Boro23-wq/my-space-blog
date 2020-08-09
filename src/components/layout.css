@@ -161,6 +161,30 @@ ins {
 }
 
 /* INS TAGS */
+.sub-easy {
+  /* line-height: 2rem; */
+  background: rgba(101, 204, 79, 0.58);
+  border: thin solid rgba(152, 255, 130, 0.4);
+  border-radius: 5px;
+  padding: 1.15px 6px;
+}
+
+.sub-medium {
+  /* line-height: 2rem; */
+  background: rgba(255, 226, 146, 0.58);
+  border: thin solid rgba(230, 175, 95, 0.4);
+  border-radius: 5px;
+  padding: 1.15px 6px;
+}
+
+.sub-hard {
+  /* line-height: 2rem; */
+  background: rgba(223, 73, 61, 0.58);
+  border: thin solid rgba(255, 124, 112, 0.4);
+  border-radius: 5px;
+  padding: 1.15px 6px;
+}
+
 .sub-ins {
   line-height: 10px;
   background: rgba(244, 100, 147, 0.3);
