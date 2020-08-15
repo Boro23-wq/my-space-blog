@@ -174,7 +174,7 @@ To change fonts, navigate to `iTerm2 > Preferences > Profiles > Text > Change Fo
 
 Let’s tweak a few color settings to make our terminal look a little better. Navigate to [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) and download the `ZIP`. Extract the downloaded folder.
 
-[iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) has many xciting themes to chose from, we will chose the theme <ins class="sub-ins-2">Blazer</ins>.
+[iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) has many exciting themes to choose from, we will chose the theme <ins class="sub-ins-2">Blazer</ins>.
 
 ![blazer-theme](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/screenshots/blazer.png)
 
