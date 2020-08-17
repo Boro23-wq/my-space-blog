@@ -1,6 +1,6 @@
 ---
 title: Invert a binary tree
-description: Know the very easy way to invert a binary tree.
+description: Invert a binary tree recursively using pre-order traversal.
 date: 2020-08-17
 ---
 
