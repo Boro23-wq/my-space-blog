@@ -1,0 +1,107 @@
+---
+title: Invert a binary tree
+description: Know the very easy way to invert a binary tree.
+date: 2020-08-17
+---
+
+#### <ins class="sub-easy">Leetcode Easy</ins>
+
+This problem was inspired by the original tweet by Max Howell from <ins class="sub-ins-2">Google</ins>:
+
+> 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so f\*\*\* off.
+
+## What is inverting a binary tree anyway?
+
+A Binary Tree inversion, simply means swapping the left and the right child​.
+
+![binary-tree](https://www.educative.io/api/edpresso/shot/5074915612950528/image/6228354095120384)
+
+## Algorithm for Inverting
+
+- Check if there is atleast one node. If only one node, return the node.
+- Recursively call for inversion on the left-subtree of the current node.
+- Also, recursively call for inversion on the right-subtree of the current node.
+- Finally, swap the left and right sub-tree.
+
+We perform a **_pre-order_** traversal of the tree where at every node we swap its left and right child node before eventually inverting the left and the right sub-tree.
+
+---
+
+## Solution code :
+
+#### <ins class="sub-ins">JAVA</ins>
+
+```java
+class Node
+{
+	int data;
+	Node left = null, right = null;
+
+	Node(int data) {
+		this.data = data;
+	}
+}
+
+class Main
+{
+	public static void preorder(Node root)
+	{
+		if (root == null) {
+			return;
+		}
+
+		System.out.print(root.data + " ");
+		preorder(root.left);
+		preorder(root.right);
+	}
+
+	public static void swap(Node root) {
+		if (root == null) {
+			return;
+		}
+
+		Node temp = root.left;
+		root.left =  root.right;
+		root.right = temp;
+	}
+
+	public static void invertBinaryTree(Node root)
+	{
+		if (root == null)
+			return;
+
+		swap(root);
+
+		invertBinaryTree(root.left);
+
+		invertBinaryTree(root.right);
+	}
+
+	public static void main(String[] args)
+	{
+	    /* Construct below tree
+				  1
+				/   \
+			   /     \
+			  2       3
+			 / \     / \
+			4   5   6   7
+		*/
+
+		Node root = new Node(1);
+		root.left = new Node(2);
+		root.right = new Node(3);
+		root.left.left = new Node(4);
+		root.left.right = new Node(5);
+		root.right.left = new Node(6);
+		root.right.right = new Node(7);
+
+		invertBinaryTree(root);
+		preorder(root);
+	}
+}
+```
+
+## Complexity Analysis
+
+For the above recursive approach, the Time Complexity is <ins class="sub-ins-2">O(n)</ins>, where 'n' is the number of nodes we have to traverse, while the Space Complexity is <ins class="sub-ins-2">O(h)</ins>, ('h' recursive calls to the call stack) where 'h' is the height of the tree.

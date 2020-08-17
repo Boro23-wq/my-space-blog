@@ -4,9 +4,9 @@ description: 2020 most frequently asked 'Lyft' programming problem.
 date: 2020-08-15
 ---
 
-![asteroid-collision](https://hips.hearstapps.com/pop.h-cdn.co/assets/15/45/1446833427-asteroid-index03.gif)
-
 #### <ins class="sub-medium">Leetcode Medium</ins>
+
+![asteroid-collision](https://hips.hearstapps.com/pop.h-cdn.co/assets/15/45/1446833427-asteroid-index03.gif)
 
 ## Problem Statement :
 
