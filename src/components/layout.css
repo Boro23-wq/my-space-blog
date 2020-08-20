@@ -217,6 +217,15 @@ span {
   margin-bottom: auto;
 }
 
+th {
+  border-bottom: 2px solid rgba(244, 100, 147, 0.25);
+}
+
+td {
+  text-align: left;
+  border-bottom: 2px solid rgba(244, 100, 147, 0.1);
+}
+
 blockquote {
   color: #d23669;
   border-left: 0.32813rem solid rgba(210, 54, 105, 0.5);
@@ -228,7 +237,6 @@ blockquote {
 
 blockquote p {
   display: inline;
-  font-family: "Play", sans-serif !important;
 }
 /* body.light {
   --bg: #ffffff;
