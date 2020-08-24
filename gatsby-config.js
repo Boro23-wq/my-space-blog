@@ -5,8 +5,8 @@ module.exports = {
       name: `Sintu Boro,`,
       summary: `an ardent learner and a pragmatist.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `A blog by Sintu Boro evoking his passion for technology`,
+    siteUrl: `https://boro-blogs.netlify.app/`,
     social: {
       twitter: `SintuBoro7`,
     },
