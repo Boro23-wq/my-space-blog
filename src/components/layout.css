@@ -238,6 +238,7 @@ blockquote {
 blockquote p {
   display: inline;
 }
+
 /* body.light {
   --bg: #ffffff;
   --bg-secondary: rgb(249, 250, 251);

@@ -1,5 +1,5 @@
 ---
-title: Client Side Rendering & Server Side Rendering
+title: Client Side Rendering VS Server Side Rendering
 description: The dilemma related to web page rendering. Know which one to choose when!
 date: 2020-08-20
 ---
@@ -10,7 +10,7 @@ Yet another nightmare developers face when they have to choose between the CSR &
 
 > For SSR, the server’s response to the browser is the HTML of your page that is ready to be rendered, while for CSR the browser gets a pretty empty document with links to your javascript. That means your browser will start rendering the HTML from your server without having to wait for all the JavaScript to be downloaded and executed. In both cases, React will need to be downloaded and go through the same process of building a virtual dom and attaching events to make the page interactive — but for SSR, the user can start viewing the page while all of that is happening. For the CSR world, you need to wait for all of the above to happen and then have the virtual DOM moved to the browser DOM for the page to be viewable.
 
-▷ Walmart Labs — [The Benefits of Server Side Rendering Over Client Side Rendering](https://medium.com/walmartglobaltech/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8)
+-- Walmart Labs — [The Benefits of Server Side Rendering Over Client Side Rendering](https://medium.com/walmartglobaltech/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8)
 
 ---
 
