@@ -62,6 +62,8 @@ let twoSum = (nums, target) => {
 }
 ```
 
+<br/>
+
 ![naive-1](./assets/naive-1.png)
 
 ---
@@ -84,6 +86,8 @@ let twoSum = (nums, target) => {
   }
 }
 ```
+
+<br/>
 
 ![naive-2](./assets/naive-2.png)
 
@@ -115,6 +119,8 @@ let twoSum = (nums, target) => {
   }
 }
 ```
+
+<br/>
 
 ![optimised](./assets/optimised.png)
 

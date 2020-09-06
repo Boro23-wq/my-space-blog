@@ -79,15 +79,6 @@ class Main
 
 	public static void main(String[] args)
 	{
-	    /* Construct below tree
-				  1
-				/   \
-			   /     \
-			  2       3
-			 / \     / \
-			4   5   6   7
-		*/
-
 		Node root = new Node(1);
 		root.left = new Node(2);
 		root.right = new Node(3);

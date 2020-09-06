@@ -49,7 +49,7 @@ Return:
 
 ## ⦾ Approach - 1 (Basic)
 
-#### <ins class="sub-ins-2">Time - O(n) | Space - O(n)</ins>
+#### <ins class="sub-ins-2">Time - O(n)</ins> | <ins class="sub-ins-2">Space - O(n)</ins>
 
 For the basic approach we run through 'n' specified (from 1 to n) and find if the numbers are a multiple of 3, 5, or both 3 and 5. For each of these case we output "Fizz", "Buzz" and "FizzBuzz" respectively and if none of the condition holds 'true' return the number itself and push it to the array of results.
 
@@ -77,6 +77,8 @@ var fizzBuzz = function (n) {
 }
 ```
 
+<br/>
+
 ![review-1](./assets/review-1.png)
 
 Not quite fast enough? Let us approach this in a different way.
@@ -85,7 +87,7 @@ Not quite fast enough? Let us approach this in a different way.
 
 ## ⦾ Approach - 2 (Optimized)
 
-#### <ins class="sub-ins-2">Time - O(n) | Space - O(n)</ins>
+#### <ins class="sub-ins-2">Time - O(n)</ins> | <ins class="sub-ins-2">Space - O(n)</ins>
 
 This approach is quite faster than the previous basic approach as now we don't have to make multiple checks for 3, 5, 3 & 5 together and so on.
 
@@ -125,6 +127,8 @@ var fizzBuzz = function (n) {
 }
 ```
 
+<br/>
+
 ![review-2](./assets/review-2.png)
 
 Much much faster!
@@ -133,7 +137,7 @@ Much much faster!
 
 ## ⦾ Approach - 3 (Optimized w/ Map)
 
-#### <ins class="sub-ins-2">Time - O(m \* n) | Space - O(n)</ins>
+#### <ins class="sub-ins-2">Time - O(m \* n)</ins> | <ins class="sub-ins-2">Space - O(n)</ins>
 
 Now for the very last scenario, what if instead of adding multiple checks we need to delete them. That would mean, everytime we are asked to delete a check we need to keep modifying our code. Thats not really helpful right?
 
@@ -173,6 +177,8 @@ var fizzBuzz = function (n) {
   return result
 }
 ```
+
+<br/>
 
 ![review-3](./assets/review-3.png)
 

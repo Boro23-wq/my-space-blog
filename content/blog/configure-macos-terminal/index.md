@@ -116,6 +116,8 @@ Or you can open any text editor using
 open ~/.zshrc
 ```
 
+<br/>
+
 ![zshrc](./assets/zshrc.png)
 
 Set your zsh theme and update it.

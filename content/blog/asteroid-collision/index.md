@@ -102,12 +102,20 @@ class Solution {
             }
 
             // handles negative number
-            while (!stack.isEmpty() && stack.peek() > 0 && -currentAsteroid > stack.peek()){
+            while (!stack.isEmpty() &&
+            stack.peek() > 0 &&
+            -currentAsteroid > stack.peek()){
+
                 stack.pop();
             }
 
-            if (stack.isEmpty() || stack.peek() < 0) stack.push(currentAsteroid);
-            else if (stack.peek() == -currentAsteroid) stack.pop();
+            if (stack.isEmpty()
+            || stack.peek() < 0) s
+            tack.push(currentAsteroid);
+
+            else if (stack.peek() == -currentAsteroid)
+
+            stack.pop();
         }
 
         int[] result = new int[stack.size()];

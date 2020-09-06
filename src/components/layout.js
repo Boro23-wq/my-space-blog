@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import "./layout.css"
-
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader"
 import { rhythm, scale } from "../utils/typography"
 
 const Layout = ({ location, title, children }) => {
@@ -70,5 +70,7 @@ const Layout = ({ location, title, children }) => {
     </div>
   )
 }
+
+deckDeckGoHighlightElement()
 
 export default Layout

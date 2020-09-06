@@ -15,7 +15,7 @@ Before, let us just look at what the problem statement says:
 
 ---
 
-## Problem Statement:
+## ⦾ Problem Statement:
 
 Validate if a given string can be interpreted as a decimal number.
 
@@ -51,7 +51,7 @@ Doesn't make whole lot of sense right? Let us first jot down the edge cases real
 
 ---
 
-## Edge Cases:
+## ⦾ Edge Cases:
 
 1. Any other character other than Numbers (0-9), Exponent (e), Positive/Negative Sign (+/-) and Decimal Point (.) will not be consider valid. For example : "1a2".
 2. Multiple decimals are not valid. For example: "1.1.2".
@@ -67,18 +67,18 @@ Now that we have all the edge cases considered, we can now start writing the cod
 
 ---
 
-## Code Implementation:
+## ⦾ Code Implementation:
 
 Here we also need to consider trimming the string before we actually start iterating over the string, since we are told that string " 0.1 " is valid even though it has whitespaces before '0' and after '1'.
 
 ```java
 class Solution {
     public boolean isNumber(String s) {
-        // sanity check
+
         if (s.length() == null) return false;
-        // trim the string
+
         s = s.trim();
-        // helper booleans to check the edge cases
+
         boolean digitSeen = false;
         boolean decimalSeen = false;
         boolean expoSeen = false;
@@ -88,29 +88,22 @@ class Solution {
             if (Character.isDigit(c)){
                 digitSeen = true;
             } else if (c == '.'){
-                // first check for multiple decimal -> false
-                // second check for decimal after 'e' or exponential -> false
                 if (decimalSeen || expoSeen) return false;
                 decimalSeen = true;
             } else if (c == 'e'){
-                // if 'e' is at the very end of the string
-                // then it is invalid string
-                // second check if 'e' appears more than once
-                // it is an invalid string
-                // third check if there are no digits before 'e'
-                // then the string is invalid
-                if (i == s.length() - 1 || expoSeen || !digitSeen) return false;
+                if (i == s.length() - 1
+                || expoSeen
+                || !digitSeen)
+
+                return false;
+
                 expoSeen = true;
             } else if (c == '+' || c == '-'){
-                // check if a sign is between digits ( 1 + 3)
-                // but +12 is valid
-                // 12e+34 is valid since + comes directly after 'e'
-                // also checks if '+' or '-' appears at the end -> "23+"
-                // which is not valid
-                if ((i != 0 && s.charAt(i - 1) != 'e') || i == s.length() - 1) return false
-                ›
+                if ((i != 0 && s.charAt(i - 1) != 'e')
+                || i == s.length() - 1)
+
+                return false;
             } else {
-                // if no characters seen
                 return false;
             }
         }

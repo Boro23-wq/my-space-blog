@@ -11,7 +11,19 @@ module.exports = {
       twitter: `SintuBoro7`,
     },
   },
+  // In your gatsby-config.js
+
   plugins: [
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-highlight-code`,
+          },
+        ],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -36,6 +48,10 @@ module.exports = {
               maxWidth: 590,
             },
           },
+          {
+            resolve: `gatsby-remark-highlight-code`,
+          },
+
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
