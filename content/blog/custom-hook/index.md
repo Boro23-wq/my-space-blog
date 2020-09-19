@@ -1,5 +1,5 @@
 ---
-title: Writing a custom Hook
+title: How to write a custom reusable Hook
 description: Reusable 'useFetch' Custom Hook Component.
 date: 2020-09-17
 ---
